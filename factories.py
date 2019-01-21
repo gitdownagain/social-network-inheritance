@@ -40,3 +40,6 @@ class CheckInPostFactory(PostFactory):
 
     latitude = -34.603722
     longitude = -58.381592
+
+# meta class, wuh?
+# Meta class is simply an inner class.

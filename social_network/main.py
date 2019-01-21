@@ -1,5 +1,8 @@
-from social_network.accounts import User
-from social_network.posts import TextPost, PicturePost, CheckInPost
+#from social_network.accounts import User
+#from social_network.posts import TextPost, PicturePost, CheckInPost
+
+from accounts import User
+from posts import TextPost, PicturePost, CheckInPost
 
 
 def main():
@@ -21,10 +24,12 @@ def main():
     george.follow(john)
 
     ringo.follow(john)
-
+    
     john.add_post(TextPost("All you need is love!"))
     john.add_post(PicturePost("Check my new submarine.",
-                              image_url='imgur.com/submarine.jpg'))
+                               image_url='imgur.com/submarine.jpg'))
+    
+    print(john.posts)
 
     george.add_post(TextPost("My guitar gently weeps..."))
     george.add_post(TextPost("For you, I'd go full blue..."))

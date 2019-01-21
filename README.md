@@ -6,7 +6,8 @@ As any other social network we're going to have different types of `Post`s. All 
 
 * `TextPost`: Just a simple text post. Should be constructed as `TextPost(text="Post Text")`.
 * `PicturePost`: A post containing text and the URL of a picture: Should be constructed as `PicturePost(text="Post Text", image_url="imgur.com/OAWTSJu")`.
-* `CheckInPost`: A post containing text and coordinates of the user's position. Should be constructed as `CheckInPost(text="Post Text", latitude="40.741895", longitude="-73.989308")`.
+* `CheckInPost`: A post co
+ntaining text and coordinates of the user's position. Should be constructed as `CheckInPost(text="Post Text", latitude="40.741895", longitude="-73.989308")`.
 
 Rmotrgram also has users. A user is a simple class that can be created as: `User(first_name="John", last_name="Smith", email="johnsmith@rmotr.com")`. 
 

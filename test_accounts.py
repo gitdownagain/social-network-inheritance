@@ -2,7 +2,6 @@ from social_network.accounts import User
 
 from factories import UserFactory, TextPostFactory, PicturePostFactory
 
-
 def test_user_creation():
     user = User(first_name='John', last_name='Doe', email='john@doe.com')
     assert user.first_name == 'John'
